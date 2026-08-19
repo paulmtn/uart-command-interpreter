@@ -1,0 +1,6 @@
+# Object files
+*.hex
+*.elf
+
+# clangd
+compile_commands.json
