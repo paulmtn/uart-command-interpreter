@@ -1,5 +1,5 @@
-void uart_init(void);
-
-void uart_send_string(char *str);
+void main_init(void);
 
 void process_keypress(void);
+
+int data_available(void);

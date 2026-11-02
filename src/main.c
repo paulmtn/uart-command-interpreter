@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 int main() {
-    uart_init();
+    main_init();
     while (1) {
-        process_keypress();
+        if (data_available()) {
+            process_keypress();
+        }
     }
 }
